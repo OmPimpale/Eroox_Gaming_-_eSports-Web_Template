@@ -1,0 +1,619 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eoorox - Gaming and eSports website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/background/joystick.png" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="container-fluid p-0 m-0">
+
+    <header class="">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary p-0">
+            <div class="container-fluid position-absolute" id="navdiv">
+                <a class="navbar-brand" href="#"><img src="./images/background/logo.png" alt="logo"></a>
+                <button class="navbar-toggler border-light rounded-0 px-3 py-2" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars minibar"></i>
+                </button>
+                <div class="collapse navbar-collapse navitems justify-content-between justify-content-xl-center justify-content-xxl-evenly"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-lg-5 me-xl-5 pe-xl-5">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3 mx-md-3 m-lg-0 px-lg-2 px-xl-4 navlink"
+                                aria-current="page" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">HOME PAGE 01</a></li>
+                                <li><a class="dropdown-item" href="#">HOME PAGE 02</a></li>
+                                <li><a class="dropdown-item" href="#">HOME PAGE 03</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 mx-md-3 m-lg-0 px-lg-2 px-xl-4 navlink" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-3 mx-md-3 m-lg-0 px-lg-2 px-xl-4 navlink" href="#"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">GALLERY</a></li>
+                                <li><a class="dropdown-item" href="#">TAEM</a></li>
+                                <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                <li><a class="dropdown-item" href="#">OUR GAME</a></li>
+                                <li><a class="dropdown-item" href="#">MATCHES</a></li>
+                                <li><a class="dropdown-item" href="#">MATCHES DETAILS</a></li>
+                                <li><a class="dropdown-item" href="#">LIVE STREAMING</a></li>
+                                <li><a class="dropdown-item" href="#">404 PAGE</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlink p-3 mx-md-3 m-lg-0 px-lg-2 px-xl-4" href="#">BOLG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link navlink p-3 mx-md-3 m-lg-0 px-lg-2 px-xl-4" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <div class="d-none d-lg-flex align-items-center ms-xl-5 ps-xl-5 anothericon text-center">
+                        <div class="p-2 px-3 border-end border-light">
+                            <a href="#" class="anothericon1">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="px-3 me-xl-4">
+                            <a href="#" class="anothericon1">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </div>
+                        <div class="ps-3 p-2 ms-5 ms-xxl-5 ps-xxl-5">
+                            <a href="#" class="anothericon1 ms-xxl-5" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                                <i class="fa-solid fa-bars-staggered"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- offcanvas -->
+        <div class="offcanvas offcanvas-end navoffcanvas" data-bs-scroll="true" tabindex="-1"
+            id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+            <div class="offcanvas-header mx-4 mt-4">
+                <a href="#" type="button" class="btn ms-0 offcanvasclose" data-bs-dismiss="offcanvas"
+                    aria-label="Close"><i class="fa-solid fa-xmark"></i></a>
+            </div>
+            <div class="offcanvas-body px-5">
+                <form class="d-flex my-4 mt-2" role="search">
+                    <input class="form-control rounded-0 border-secondary w-75 text-secondary" type="search"
+                        placeholder="Search" aria-label="Search" id="offcanvasform">
+                    <button class="btn rounded-0 offcanvasbtn" type="submit"><i
+                            class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" aria-current="page"
+                            href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Gallery Study</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link offcanvaslink border-bottom border-secondary" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="mt-5">
+                    <div class="py-3 border-bottom border-secondary">
+                        <a href="#" class="offcanvaslink">
+                            &plus;8 12 3456897
+                        </a>
+                    </div>
+                    <div class="py-3 border-bottom border-secondary">
+                        <a href="#" class="offcanvaslink">
+                            info@Example.Com
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="container-fluid overflow-hidden">
+        <section class="row" id="herosection">
+            <div class="col-12" id="herobg">
+                <div class="row justify-content-center justify-content-md-start">
+                    <div class="col-9 col-md-5 mainherodiv">
+                        <div data-aos="fade-down" data-aos-duration="2000">
+                            <h5 class="herotext">&#35;WORLD CLASS GAME</h5>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="2000">
+                            <h2 class="herohesding">ARE YOU READY FOR YOUR NEXT CHALLENGE &quest;</h2>
+                        </div>
+                        <button type="button" class="btn my-4" id="herobtn">READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="row justify-content-center">
+            <div class="col col-xl-10 col-xxl-8 mt-xxl-5" id="aboutdiv">
+                <div class="row justify-content-center justify-content-lg-evenly justify-content-xl-cente py-4 my-lg-5"
+                    id="">
+                    <div class="col-10 col-lg-5 col-xxl-5 p-1 aboutdiv1">
+                        <img src="./images/illustrative/about_img.png" alt="about" class="img-fluid mt-lg-3 mt-xxl-0">
+                    </div>
+                    <div class="col-10 col-lg-5 col-xxl-5 mt-5 mt-lg-0 p-1">
+                        <h2 id="abouthead" class="m-0">WE'RE THE BEST GAMING <span id="abouthead1">COMPANY</span></h2>
+                        <div class="mb-4">
+                            <img src="./images/illustrative/circle_left.png" alt="">
+                        </div>
+                        <p class="aboutpara">Lpsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore
+                            et dolore magna aliqua.</p>
+                        <p class="aboutpara">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum</p>
+                        <div class="my-5">
+                            <ul class="p-0 aboutlist">
+                                <li class="aboutpara mb-3">
+                                    <div class="d-flex align-items-top">
+                                        <div><img src="./images/illustrative/Screenshot 2024-11-23 202805.png"
+                                                alt="list"></div>
+                                        <div class="ms-3">Suspe ndisse suscipit sagittis leo.</div>
+                                    </div>
+                                </li>
+                                <li class="aboutpara mb-3">
+                                    <div class="d-flex align-items-top">
+                                        <div><img src="./images/illustrative/Screenshot 2024-11-23 202805.png"
+                                                alt="list"></div>
+                                        <div class="ms-3">Entum estibulum dignissim posuere.</div>
+                                    </div>
+                                </li>
+                                <li class="aboutpara mb-3">
+                                    <div class="d-flex align-items-top">
+                                        <div><img src="./images/illustrative/Screenshot 2024-11-23 202805.png"
+                                                alt="list"></div>
+                                        <div class="ms-3">If you are going to use a passage.</div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="btn btn-lg border border-warning sboutbtn">DISCOVER MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="row" id="services">
+            <div class="col">
+                <div class="row justify-content-center">
+                    <div class="col-11 col-lg-12 col-xl-11">
+                        <div class="row justify-content-md-evenly">
+                            <div class="col-md-5 col-lg-3 servicesdiv p-4 my-4 p-xl-5">
+                                <h5 class="d-flex d-xl-block seviceshead">
+                                    <img src="./images/background/pv-icon1.png" alt="service1" class="me-4">
+                                    <span class="mt-4">Live Streaming</span>
+                                </h5>
+                                <p class="servicestext my-3 my-xl-4">Duis aute irure dolor in reprehenderit in voluptate
+                                    velit
+                                    esse .</p>
+                            </div>
+                            <div class="col-md-5 col-lg-3 servicesdiv p-4 my-4 p-xl-5">
+                                <h5 class="d-flex d-xl-block seviceshead">
+                                    <img src="./images/background/pv-icon2.png" alt="service2" class="me-4">
+                                    <span class="mt-4">Filtration Level</span>
+                                </h5>
+                                <p class="servicestext my-3 my-xl-4">Duis aute irure dolor in reprehenderit in voluptate
+                                    velit
+                                    esse .</p>
+                            </div>
+                            <div class="col-md-5 col-lg-3 servicesdiv p-4 my-4 p-xl-5">
+                                <h5 class="d-flex d-xl-block seviceshead">
+                                    <img src="./images/background/pv-icon3.png" alt="service3" class="me-4">
+                                    <span class="mt-4">Composition</span>
+                                </h5>
+                                <p class="servicestext my-3 my-xl-4">Duis aute irure dolor in reprehenderit in voluptate
+                                    velit
+                                    esse .</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trending" class="row justify-content-center">
+            <div class="col-11 col-xxl-10">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="treandinghead">TREANDING <span class="treandinghead1">GAMES</span></h2>
+                        <img src="./images/illustrative/circle_left.png" alt="">
+                    </div>
+                    <div class="col-12 mt-5">
+                        <ul class="px-2 d-flex text-center overflow-auto">
+                            <li class="treandinglist"><a href="#" class="treandinganchor text-warning">ALL</a></li>
+                            <li class="treandinglist"><a href="#" class="treandinganchor">ORIGIN</a></li>
+                            <li class="treandinglist"><a href="#" class="treandinganchor">PLAYSTATION 4</a></li>
+                            <li class="treandinglist"><a href="#" class="treandinganchor">UPLAY</a></li>
+                            <li class="treandinglist"><a href="#" class="treandinganchor">STEAM</a></li>
+                            <li class="treandinglist"><a href="#" class="treandinganchor">REPER</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-md-6 col-lg-3"><a href="#" class="cardanchor">
+                                    <div class="card my-4">
+                                        <img src="./images/illustrative/protfolio-img01.png" class="card-img-top"
+                                            alt="portfolio1">
+                                        <div class="card-body p-4 my-3">
+                                            <h5 class="card-title">BUNNY OFFICER</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <a href="#" class="cardanchor">
+                                    <div class="card my-4">
+                                        <img src="./images/illustrative/protfolio-img02.png" class="card-img-top"
+                                            alt="portfolio2">
+                                        <div class="card-body p-4 my-3">
+                                            <h5 class="card-title">WONDERLAND</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <a href="#" class="cardanchor">
+                                    <div class="card my-4">
+                                        <img src="./images/illustrative/protfolio-img03.png" class="card-img-top"
+                                            alt="portfolio3">
+                                        <div class="card-body p-4 my-3">
+                                            <h5 class="card-title ">APEX LEGEND</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-md-6 col-lg-3">
+                                <a href="#" class="cardanchor">
+                                    <div class="card my-4">
+                                        <img src="./images/illustrative/protfolio-img04.png" class="card-img-top"
+                                            alt="portfolio4">
+                                        <div class="card-body p-4 my-3">
+                                            <h5 class="card-title">WRAITH</h5>
+                                            <p class="card-text">Lorem ipsum dolor sit amet</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-5">
+                        <div class="row justify-content-center">
+                            <div id="carouselExample" class="col-12 carousel slide">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active text-center" id="slide1">
+                                        <a href="#" type="button" class="btn"><img
+                                                src="./images/illustrative/play-button.png" alt="paly"
+                                                class="img-fluid slidebtn border-0"></a>
+                                    </div>
+                                    <div class="carousel-item text-center" id="slide2">
+                                        <a href="#" type="button" class="btn"><img
+                                                src="./images/illustrative/play-button.png" alt="play"
+                                                class="img-fluid slidebtn border-0"></a>
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="prev">
+                                    <i class="fa-solid fa-arrow-left carouselicon rounded-circle"></i>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                                    data-bs-slide="next">
+                                    <i class="fa-solid fa-arrow-right carouselicon rounded-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="joinus" class="row">
+            <div class="col p-0">
+                <div class="row justify-content-center" id="joinusdiv">
+                    <div class="col-10 col-lg-7 px-0 col-xxl-6 py-4 text-center">
+                        <h2 class="joinushead mx-xxl-5 px-xxl-4">JOIN US AS A SUPER FANS AND GET ALL THE BENEFITS</h2>
+                        <P class="joinuspara mx-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum.</P>
+                        <button type="button" class="btn btn-warning joinusbtn mt-4">JOIN NOW</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="matches" class="row justify-content-center">
+            <div class="col-11 col-xxl-9">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="matcheshead">UPCOMING <span class="matcheshead1">MATCHES</span></h2>
+                        <img src="./images/illustrative/circle_left.png" alt="img" class="img-fluid">
+                    </div>
+                    <div class="col my-5 d-lg-flex justify-content-lg-between px-lg-0">
+                        <div id="team1" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                        <div class="text-center my-4">
+                            <h4 class="matchestime m-0">11:30</h4>
+                            <span class="matchedate">1st October 2021</span>
+                        </div>
+                        <div id="team2" class="mx-lg-0" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-12 my-5 d-lg-flex justify-content-lg-between px-lg-0">
+                        <div id="team3" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                        <div class="text-center my-4">
+                            <h4 class="matchestime m-0">11:30</h4>
+                            <span class="matchedate">1st October 2021</span>
+                        </div>
+                        <div id="team4" class="mx-lg-0" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                    </div>
+
+                    <div class="col-12 my-5 d-lg-flex justify-content-lg-between px-lg-0">
+                        <div id="team5" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                        <div class="text-center my-4">
+                            <h4 class="matchestime m-0">11:30</h4>
+                            <span class="matchedate">1st October 2021</span>
+                        </div>
+                        <div id="team6" class="mx-lg-0" data-aos="zoom-in" data-aos-duration="2000">
+                            <span class="matchesspan">Blue</span>
+                            <h2 class="matcheshead2">SAMURAI</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="blog" class="row justify-content-center">
+            <div class="col-10 col-lg-12 blogdiv1">
+                <div class="row justify-content-lg-evenly">
+                    <div class="col-12 col-lg-3 p-0 my-4 rounded-3" id="blog1">
+                        <div class="blogdiv p-4 rounded-3">
+                            <h4 class="px-3">
+                                <a href="#" class="bloghead">THE WALKING DEAD SEASON</a>
+                            </h4>
+                            <div class="d-xxl-flex">
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-user blogicon"></i>
+                                    <p class="blogicontext1 ps-3">Admin</p>
+                                </div>
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-calendar-days blogicon"></i>
+                                    <p class="blogicontext1 ps-3">24th March 2021</p>
+                                </div>
+                            </div>
+                            <div class="px-md-3">
+                                <p class="blogpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+                                    praesentium modi
+                                    hic laudantium temporibus nesciunt quidem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 p-0 my-4 rounded-3" id="blog2">
+                        <div class="blogdiv p-4 rounded-3">
+                            <h4 class="px-3">
+                                <a href="#" class="bloghead">THE WALKING DEAD SEASON</a>
+                            </h4>
+                            <div class="d-xxl-flex">
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-user blogicon"></i>
+                                    <p class="blogicontext1 ps-3">Admin</p>
+                                </div>
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-calendar-days blogicon"></i>
+                                    <p class="blogicontext1 ps-3">24th March 2021</p>
+                                </div>
+                            </div>
+                            <div class="px-md-3">
+                                <p class="blogpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+                                    praesentium modi
+                                    hic laudantium temporibus nesciunt quidem.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3 p-0 my-4 rounded-3" id="blog3">
+                        <div class="blogdiv p-4 rounded-3">
+                            <h4 class="px-3">
+                                <a href="#" class="bloghead">THE WALKING DEAD SEASON</a>
+                            </h4>
+                            <div class="d-xxl-flex">
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-user blogicon"></i>
+                                    <p class="blogicontext1 ps-3">Admin</p>
+                                </div>
+                                <div class="d-flex px-3">
+                                    <i class="fa-regular fa-calendar-days blogicon"></i>
+                                    <p class="blogicontext1 ps-3">24th March 2021</p>
+                                </div>
+                            </div>
+                            <div class="px-md-3">
+                                <p class="blogpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+                                    praesentium modi
+                                    hic laudantium temporibus nesciunt quidem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="row justify-content-center">
+            <div class="col col-lg-11 col-xxl-9">
+                <div class="row">
+                    <div
+                        class="col rounded-5 newsletterdiv d-lg-flex justify-content-between align-items-center mx-md-3">
+                        <div>
+                            <h3 class="newshead mb-md-5 mb-lg-0">OUR NEWSLATTER</h3>
+                        </div>
+                        <div class=" d-xl-flex w-75 justify-content-xl-end">
+                            <input type="text" placeholder="Email Address..."
+                                class="form-control rounded-0 py-3 px-5 pe-xxl-0 newsinput border-0">
+                            <button type="button" class="btn btn-warning rounded-0 mt-3 mt-xxl-0 newsbtn">Subscribe <i
+                                    class="fa-solid fa-paper-plane newsicon"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container-fluid overflow-hidden" id="footer">
+        <section class="row justify-content-center pt-5">
+            <div class="col-10 col-lg-11 col-xl-10 pb-4">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-5 col-lg-3 my-3" id="footerinfo">
+                        <img src="./images/background/logo.png" alt="logo">
+                        <p class="foottext my-4">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                            dolore
+                        </p>
+                        <div class="infodiv1">
+                            <div class="d-flex my-3">
+                                <div><i class="fa-solid fa-location-dot footericon1"></i></div>
+                                <div class="ps-3 foottext">Address :66 Broklyn Street, United States of America</div>
+                            </div>
+                            <div class="d-flex my-3">
+                                <div><i class="fa-solid fa-clock footericon1"></i></div>
+                                <div class="ps-3 foottext">Phone : &plus;123 456 78900</div>
+                            </div>
+                            <div class="d-flex my-3">
+                                <div><i class="fa-solid fa-envelope footericon1"></i></div>
+                                <div class="ps-3 foottext">Email : info@example.com</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-2 my-3">
+                        <h2 class="foothead">OUR LINKS</h2>
+                        <div class="footeremptydiv mb-5"></div>
+                        <ul class="p-0">
+                            <a href="#" class="foottextitem">
+                                <li class="my-4 foottext1">Home</li>
+                            </a>
+                            <a href="#" class="foottextitem">
+                                <li class="my-4 foottext1">About Us</li>
+                            </a>
+                            <a href="#" class="foottextitem">
+                                <li class="my-4 foottext1">Services</li>
+                            </a>
+                            <a href="#" class="foottextitem">
+                                <li class="my-4 foottext1">Contact Us</li>
+                            </a>
+                            <a href="#" class="foottextitem">
+                                <li class="my-4 foottext1">Blog</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-2 my-3">
+                        <h3 class="foothead">OUR SERVICES</h3>
+                        <div class="footeremptydiv mb-5"></div>
+                        <ul class="p-0">
+                            <a href="#" class="foottextitem">
+                                <li class="foottext1 my-4">FAQ</li>
+                            </a><a href="#" class="foottextitem">
+                                <li class="foottext1 my-4">Support</li>
+                            </a><a href="#" class="foottextitem">
+                                <li class="foottext1 my-4">Privacy</li>
+                            </a><a href="#" class="foottextitem">
+                                <li class="foottext1 my-4">Terms &amp; Condition</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 my-3">
+                        <div class="mb-5 pb-2">
+                            <h3 class="foothead">OUR GALLERY</h3>
+                            <div class="footeremptydiv mb-5"></div>
+                            <a href="#" class="footeranchoricon"><i
+                                    class="fa-brands btn btn-warning mx-1 btn-lg iconfooter fa-facebook-f"
+                                    id="footericon"></i></a>
+                            <a href="#" class="footeranchoricon"><i
+                                    class="fa-brands btn btn-warning mx-1 iconfooter fa-twitter"></i></a>
+                            <a href="#" class="footeranchoricon"><i
+                                    class="fa-brands btn btn-warning mx-1 iconfooter fa-instagram"></i></a>
+                        </div>
+                        <div>
+                            <h3 class="foothead">MAP</h3>
+                            <div class="footeremptydiv mb-3"></div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30258.96218270164!2d73.76233987049268!3d18.557338230172594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bed872606f37%3A0x8b87af4d0794f281!2sZapak%20Mobile%20Games%20Private%20Ltd!5e0!3m2!1sen!2sin!4v1732430872453!5m2!1sen!2sin"
+                                style="border:0" width="250px" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10 col-md-5 text-center footertext">
+                Copyright &copy; 2024.
+            </div>
+            <div class="col-10 col-md-5 text-center footertext">
+                Made By : <a href="#" class="footeranchor">Om Pimpale (PP113).</a>
+            </div>
+        </section>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
