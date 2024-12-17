@@ -1,5 +1,5 @@
 # Eroox_Gaming_-_eSports-Web_Template
-#Errox: A sleek and dynamic game studio website template that captures the essence of gaming excitement.
+# Errox: A sleek and dynamic game studio website template that captures the essence of gaming excitement.
 
 A visually stunning and feature-rich website template designed specifically for game studios. Featuring a bold, modern design with a focus on showcasing your games, team, and community. Errox includes essential sections like "About Us," "Games," "News," "Contact," and more. It's fully responsive, ensuring a seamless experience across all devices.
 
