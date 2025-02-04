@@ -24,8 +24,6 @@ Check out the live demo of the project:
 <br/>
 ✅ <strong>Bootstrap:</strong> Pre-styled components, grid system, and mobile-first design.
 <br/>
-✅ <strong>JavaScript:</strong> Adds interactivity and dynamic elements.
-<br/>
 ✅ <strong>AOS Animation:</strong> Smooth scrolling animations for a modern look.
 
 # 📥 Installation
