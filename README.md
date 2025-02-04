@@ -35,10 +35,10 @@ Follow these steps to set up the project:
 #### 1️⃣ Clone the Repository
 
 ```sh
-git clone
-https://github.com/OmPimpale/Eroox_Gaming_-_eSports-Web_Template.git
+git clone https://github.com/OmPimpale/Eroox_Gaming_-_eSports-Web_Template.git
+```
+```sh
 cd Eroox_Gaming_-_eSports-Web_Template
-
 ```
 
 #### 2️⃣ Open the Project
@@ -57,5 +57,7 @@ Want to improve Eroox? Feel free to fork the repository, make your changes, and 
 # 📧 Contact
 
 If you have any questions or suggestions, reach out to me on:
+<br/>
 📩 Email: ompimpale2003@gmail.com
+<br/>
 🌐 GitHub: <a href="https://github.com/OmPimpale">OmPimpale</a>
