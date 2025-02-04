@@ -17,10 +17,15 @@ Check out the live demo of the project:
 # 🎮 Features
 
 ✅ <strong>Fully Responsive:</strong> Optimized for mobile, tablet, and desktop views.
+<br/>
 ✅ <strong>HTML:</strong> Provides a solid structure for the webpage.
+<br/>
 ✅ <strong>CSS:</strong> Enhances styling and layout.
+<br/>
 ✅ <strong>Bootstrap:</strong> Pre-styled components, grid system, and mobile-first design.
+<br/>
 ✅ <strong>JavaScript:</strong> Adds interactivity and dynamic elements.
+<br/>
 ✅ <strong>AOS Animation:</strong> Smooth scrolling animations for a modern look.
 
 # 📥 Installation
